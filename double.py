@@ -1,7 +1,7 @@
-def double():
-    n = input("number please...")
-    userint = int(n)
-
+def double(n):
     print(userint * 2)
 
-double()
+n = input("number please...")
+userint = int(n)
+
+double(n)
